@@ -1,0 +1,34 @@
+{
+    "name": "ganyu/yii2-ftp",
+    "description": "The yii2-ftp extension for the Yii framework",
+    "keywords": ["yii2", "ftp"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/ganyu/yii2-ftp"
+    },
+    "authors": [
+        {
+            "name": "ganyu",
+            "email": "ganyu0808@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6",
+        "php": ">=5.4.0",  
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\ftp\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
